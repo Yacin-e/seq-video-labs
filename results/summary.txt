@@ -1,0 +1,58 @@
+=== CALIBRATION SUMMARY ===
+images used            : 29   (dropped: 0)
+processed image size   : 2016 x 1512 px
+pattern / square       : 7x7 inner corners, 20.0 mm
+distortion model       : k1k2
+RMS reprojection error : 0.5589 px
+
+Intrinsic matrix K (pixels):
+   [  1531.499       0.000     995.079 ]
+   [     0.000    1493.581     757.619 ]
+   [     0.000       0.000       1.000 ]
+fx = 1531.50 +/- 3.20   fy = 1493.58 +/- 2.94   (px, +/- = std dev)
+cx = 995.08 +/- 0.49   cy = 757.62 +/- 1.78   (image centre: 1007.5, 755.5)
+aspect fx/fy           : 1.02539
+Distortion coefficients: k1=+0.19593  k2=-0.69389  p1=+0.00000  p2=+0.00000  k3=+0.00000
+max distortion displacement, observed region : 8.32 px  (bbox x 470-1563, y 207-1271)
+max distortion displacement, image corners   : 83383.13 px  (extrapolated if the board never reached the corners)
+
+--- calibrationMatrixValues (sensor 5.65 x 4.24 mm) ---
+FOV x / y              : 66.70 deg / 53.69 deg
+focal length (from fx) : 4.2921 mm   = 0.004292 m
+focal length (from fy) : 4.1883 mm   = 0.004188 m
+principal point        : (2.789, 2.125) mm from the sensor corner
+aspect ratio           : 0.97524
+35 mm equivalent       : 26.3 mm
+effective pixel size   : 2.803 um at the processed resolution
+reference (iPhone XR EXIF nominal): 4.25 mm  -> difference +1.0 %
+
+Per-image reprojection RMS (px):
+   IMG_1769.jpg                   0.587
+   IMG_1770.jpg                   0.805
+   IMG_1772.jpg                   0.767
+   IMG_1773.jpg                   0.554
+   IMG_1774.jpg                   0.486
+   IMG_1775.jpg                   0.383
+   IMG_1776.jpg                   0.539
+   IMG_1777.jpg                   0.559
+   IMG_1778.jpg                   0.480
+   IMG_1780.jpg                   0.386
+   IMG_1781.jpg                   1.108
+   IMG_1782.jpg                   0.477
+   IMG_1783.jpg                   0.319
+   IMG_1784.jpg                   0.687
+   IMG_1785.jpg                   0.237
+   IMG_1786.jpg                   0.226
+   IMG_1787.jpg                   0.131
+   IMG_1788.jpg                   0.321
+   IMG_1789.jpg                   0.378
+   IMG_1791.jpg                   0.694
+   IMG_1792.jpg                   0.672
+   IMG_1793.jpg                   0.791
+   IMG_1794.jpg                   0.657
+   IMG_1795.jpg                   0.616
+   IMG_1796.jpg                   0.213
+   IMG_1797.jpg                   0.401
+   IMG_1798.jpg                   0.283
+   IMG_1799.jpg                   0.512
+   IMG_1800.jpg                   0.699
